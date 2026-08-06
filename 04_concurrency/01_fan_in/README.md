@@ -6,3 +6,8 @@
 первую очередь до конца: обслуживайте источники конкурентно и корректно
 завершите вспомогательные потоки.
 
+## Полезные материалы
+
+- [`queue` — синхронизированные очереди](https://docs.python.org/3/library/queue.html) — безопасный обмен данными между потоками и блокирующий `Queue.get()`.
+- [`threading.Thread`](https://docs.python.org/3/library/threading.html#threading.Thread) — запуск и корректное завершение вспомогательных потоков.
+- [Модель потоков Python](https://docs.python.org/3/library/threading.html#threading) — ограничения GIL и задачи, для которых потоки остаются подходящим инструментом.

@@ -5,3 +5,8 @@
 Функция `sleep` внедряется аргументом для тестируемости. Сохраните метаданные
 обёрнутой функции. Некорректные параметры должны дать `ValueError` сразу.
 
+## Полезные материалы
+
+- [Определения функций и декораторы](https://docs.python.org/3/reference/compound_stmts.html#function-definitions) — как выражения-декораторы применяются при создании функции.
+- [`functools.wraps`](https://docs.python.org/3/library/functools.html#functools.wraps) — сохранение имени, документации и других метаданных обёрнутой функции.
+- [`time.sleep`](https://docs.python.org/3/library/time.html#time.sleep) — стандартная функция задержки; внедрение её аналога делает тесты быстрыми и детерминированными.
