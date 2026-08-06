@@ -6,3 +6,8 @@
 возвращает сам дескриптор. Validator может нормализовать значение или бросить
 исключение.
 
+## Полезные материалы
+
+- [Руководство по дескрипторам](https://docs.python.org/3/howto/descriptor.html) — механика вызовов `__get__()`, `__set__()` и приоритет дескрипторов.
+- [`object.__set_name__`](https://docs.python.org/3/reference/datamodel.html#object.__set_name__) — получение имени атрибута при создании класса-владельца.
+- [Пользовательские generic-типы](https://docs.python.org/3/library/typing.html#user-defined-generic-types) — аннотации для класса, параметризованного типом хранимого значения.

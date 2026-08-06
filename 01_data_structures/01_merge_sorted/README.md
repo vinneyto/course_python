@@ -10,3 +10,8 @@
 
 Запуск: `pytest collections/01_merge_sorted`.
 
+## Полезные материалы
+
+- [`heapq` — алгоритм очереди с приоритетом](https://docs.python.org/3/library/heapq.html) — операции с кучей и готовая функция `heapq.merge` для сравнения подходов.
+- [Выражение `yield`](https://docs.python.org/3/reference/expressions.html#yield-expressions) — как генераторы позволяют выдавать результат лениво.
+- [`iter()` и `next()`](https://docs.python.org/3/library/functions.html#iter) — базовый протокол, с помощью которого можно читать каждый входной поток по одному элементу.
