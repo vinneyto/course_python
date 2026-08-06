@@ -1,7 +1,7 @@
 [tool.pytest.ini_options]
 addopts = "-ra --import-mode=importlib"
 asyncio_mode = "auto"
-testpaths = ["data_structures", "iterators", "files", "concurrency", "asynchronous", "networking", "typing_and_metaprogramming"]
+testpaths = ["01_data_structures", "02_iterators", "03_files", "04_concurrency", "05_asynchronous", "06_networking", "07_typing_and_metaprogramming"]
 
 [tool.ruff]
 target-version = "py311"

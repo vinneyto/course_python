@@ -13,8 +13,8 @@
 python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
-pytest data_structures/01_merge_sorted   # одна задача
-pytest concurrency/02_parallel_map   # одна тема
+pytest 01_data_structures/01_merge_sorted   # одна задача
+pytest 04_concurrency/02_parallel_map   # одна тема
 pytest                               # весь курс (до решений тесты падают — это нормально)
 ```
 
@@ -25,13 +25,13 @@ pytest                               # весь курс (до решений т
 
 | № | Тема | Задачи | Что тренируем |
 |---|---|---:|---|
-| 1 | `data_structures` | 2 | heap, hash map, сложность алгоритмов |
-| 2 | `iterators` | 2 | ленивость, генераторы, декораторы |
-| 3 | `files` | 2 | потоковый I/O, контекстные менеджеры, atomic write |
-| 4 | `concurrency` | 2 | потоки, очереди, порядок результатов, исключения |
-| 5 | `asynchronous` | 2 | fan-in/fan-out, отмена, backpressure |
-| 6 | `networking` | 1 | TCP framing и частичные чтения |
-| 7 | `typing_and_metaprogramming` | 1 | дескрипторы и валидация |
+| 1 | `01_data_structures` | 2 | heap, hash map, сложность алгоритмов |
+| 2 | `02_iterators` | 2 | ленивость, генераторы, декораторы |
+| 3 | `03_files` | 2 | потоковый I/O, контекстные менеджеры, atomic write |
+| 4 | `04_concurrency` | 2 | потоки, очереди, порядок результатов, исключения |
+| 5 | `05_asynchronous` | 2 | fan-in/fan-out, отмена, backpressure |
+| 6 | `06_networking` | 1 | TCP framing и частичные чтения |
+| 7 | `07_typing_and_metaprogramming` | 1 | дескрипторы и валидация |
 
 Сначала оцените сложность и проговорите инварианты, затем реализуйте решение.
 После зелёных тестов обсудите альтернативы: где нужен lock, кто владеет
