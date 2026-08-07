@@ -6,7 +6,7 @@
 Сначала напишите обычный цикл с `append`, а затем, если он понятен, попробуйте
 переписать его как list comprehension.
 
-Запуск: `pytest 00_basics/02_lists`.
+Запуск: `pytest 01_lists/01_positive_squares`.
 
 ## Полезные материалы
 

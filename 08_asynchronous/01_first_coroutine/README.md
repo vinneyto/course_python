@@ -8,7 +8,7 @@
 Проследите, что вызов `delayed_upper(...)` сначала создаёт объект корутины, а
 выполняет его оператор `await`.
 
-Запуск: `pytest 05_asynchronous/01_first_coroutine`.
+Запуск: `pytest 08_asynchronous/01_first_coroutine`.
 
 ## Полезные материалы
 

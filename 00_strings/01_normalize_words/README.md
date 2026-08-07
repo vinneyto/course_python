@@ -7,7 +7,7 @@
 Примеры: `"  Hello   WORLD " → "hello world"`, пустая строка остаётся пустой.
 Попробуйте решить задачу с помощью `str.split()` и `str.join()`.
 
-Запуск: `pytest 00_basics/01_strings`.
+Запуск: `pytest 00_strings/01_normalize_words`.
 
 ## Полезные материалы
 
