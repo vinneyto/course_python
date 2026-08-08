@@ -2,7 +2,7 @@
 addopts = "-ra --import-mode=importlib"
 asyncio_mode = "auto"
 asyncio_default_fixture_loop_scope = "function"
-testpaths = ["00_strings", "01_lists", "02_dictionaries", "03_sets", "04_data_structures", "05_iterators", "06_files", "07_concurrency", "08_asynchronous", "09_networking", "10_typing_and_metaprogramming"]
+testpaths = ["00_strings", "01_lists", "02_dictionaries", "03_sets", "04_data_structures", "05_iterators", "06_files", "07_concurrency", "08_asynchronous", "09_networking", "10_typing_and_metaprogramming", "11_oop_and_decorators"]
 
 [tool.ruff]
 target-version = "py311"
